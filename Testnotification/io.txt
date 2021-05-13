@@ -1,0 +1,32 @@
+#input1
+{
+   "fcm_id": fcm_id,
+   "event_id": "Xnqm5j6Srd45m4jumUPC",
+   "notification_type": "Feed",
+   "FOLK_guide": "SRRD",
+   "user_name": "Shresta Rupa Dasa",
+   "user_zone": "ISKCON Bangalore",
+   "user_phone": "9342336283",
+   "title": "FOLK EVENT",
+   "body": "Starting at 8:15 PM",
+   "gender": "All"
+}
+
+
+#output1
+
+result {
+          'multicast_ids'   : [4654287218898990460],
+          'success'         : 1,
+          'failure'         :  0,
+          'canonical_ids'   : 0,
+          'results'         : [{'message_id': '0:1620908473879635%fe4081c9fe4081c9'}],
+          'topic_message_id': None
+        }
+        
+#output2
+
+       {
+           "Status": False,
+           "output": "No FCM ID"
+       }
